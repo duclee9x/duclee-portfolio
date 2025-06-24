@@ -82,7 +82,7 @@ export function Contact() {
                   {
                     icon: <Mail className="w-5 h-5" />,
                     label: t("email"),
-                    value: "admin@duclee.store",
+                    value: "ledangduc7601@gmail.com",
                     href: "mailto:ledangduc7601@gmail.com",
                   },
                   {

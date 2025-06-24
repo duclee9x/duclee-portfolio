@@ -35,7 +35,7 @@ export function Hero() {
           priority
         />
         {/* Enhanced Gradient Overlay */}
-        <div className="absolute inset-0 bg-gradient-to-br from-background/80 via-background/50 to-background/40 dark:from-background/98 dark:via-background/90 dark:to-background/95"></div>
+        <div className="absolute inset-0 bg-gradient-to-br from-background/56 via-background/30 to-background/70 dark:from-background/40 dark:via-background/34 dark:to-background/20"></div>
       </div>
 
       {/* Animated Background Elements */}

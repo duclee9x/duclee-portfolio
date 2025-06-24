@@ -41,10 +41,8 @@ const translations = {
     iternDesc: "Designed and implemented RESTful APIs using FastAPI for ML model deployment.",
     cloudTech: "CloudTech Innovations",
     devOpsDesc: "Led monitoring and optimization of microservices for major Oil & Gas industry clients",
-    dataItern: "Data Scientist Intern",
     dataFlow: "DataFlow Systems",
-    iternDesc: "Designed and implemented RESTful APIs using FastAPI for ML model deployment",
-
+    projectsDesc: "A comprehensive cloud-native e-commerce platform showcasing modern DevOps practices",
     // Tech Stack
     technologyStack: "Technology Stack",
 
@@ -52,10 +50,23 @@ const translations = {
     featuredProject: "Featured Project",
     projectOverview: "Project Overview",
     projectDesc:
-      "A fully containerized e-commerce platform built with microservices architecture, deployed on AWS EKS with comprehensive monitoring, logging, and automated CI/CD pipelines.",
+      "A fully containerized e-commerce platform built with microservices architecture, deployed on local machine with Kind with comprehensive monitoring, logging, and automated CI/CD pipelines.",
     keyFeatures: "Key Features",
+    feature1: "GitOps with rendered manifest pattern approach",
+    feature2: "Containerized application and pipeline running with Dagger",
+    feature3: "Microservices running with Dapr and Istio",
+    feature4: "Integration with Let's Encrypt for SSL by leverage Cert-Manager",
+    feature5: "Secret management with Hashicorp Vault",
+    feature6: "Monitoring with LGTM stack",
     liveDemo: "Live Demo",
     viewCode: "View Code",
+    automationTitle: "Infrastructure Automation Suite",
+    automationDesc: "Comprehensive automation toolkit for infrastructure provisioning and management across multi-cloud environments.",
+    automationTech_Terraform: "Terraform",
+    automationTech_Ansible: "Ansible",
+    automationTech_Python: "Python",
+    automationTech_AWS: "AWS",
+    automationTech_Azure: "Azure",
 
     // Contact
     contactTitle: "Get In Touch",
@@ -140,11 +151,25 @@ const translations = {
     // Project
     featuredProject: "Dự án nổi bật",
     projectOverview: "Tổng quan dự án",
+
     projectDesc:
       "Nền tảng thương mại điện tử được container hóa hoàn toàn được xây dựng với kiến trúc microservices, GitOps và triển khai trên Kubernetes với giám sát toàn diện và pipeline CI/CD tự động.",
     keyFeatures: "Tính năng chính",
+    feature1: "Triển khai GitOps với rendered manifest pattern",
+    feature2: "Ứng dụng và pipeline được đóng gói container chạy bằng Dagger",
+    feature3: "Microservices vận hành với Dapr và Istio",
+    feature4: "Tích hợp Let's Encrypt cho SSL thông qua Cert-Manager",
+    feature5: "Quản lý secrets với Hashicorp Vault",
+    feature6: "Giám sát bằng LGTM stack",
     liveDemo: "Demo trực tiếp",
     viewCode: "Xem mã nguồn",
+    automationTitle: "Bộ công cụ Tự động hóa Hạ tầng",
+    automationDesc: "Bộ công cụ tự động hóa toàn diện cho việc cung cấp và quản lý hạ tầng trên nhiều nền tảng đám mây.",
+    automationTech_Terraform: "Terraform",
+    automationTech_Ansible: "Ansible",
+    automationTech_Python: "Python",
+    automationTech_AWS: "AWS",
+    automationTech_Azure: "Azure",
 
     // Contact
     contactTitle: "Liên hệ",
@@ -232,9 +257,22 @@ const translations = {
     projectOverview: "プロジェクト概要",
     projectDesc:
       "マイクロサービスアーキテクチャで構築された完全にコンテナ化されたEコマースプラットフォーム。包括的な監視、ログ記録、自動化されたCI/CDパイプラインを備えたAWS EKSにデプロイ。",
-    keyFeatures: "主要機能",
+    keyFeatures: "主な機能",
+    feature1: "レンダリングされたパターンマニフェストアプローチによるGitOps",
+    feature2: "Daggerで実行されるコンテナ化アプリケーションとパイプライン",
+    feature3: "DaprとIstioで稼働するマイクロサービス",
+    feature4: "Cert-Managerを活用したLet's EncryptによるSSL統合",
+    feature5: "Hashicorp Vaultによるシークレット管理",
+    feature6: "LGTMスタックによるモニタリング",
     liveDemo: "ライブデモ",
     viewCode: "コードを見る",
+    automationTitle: "インフラ自動化スイート",
+    automationDesc: "マルチクラウド環境でのインフラプロビジョニングと管理のための包括的な自動化ツールキット。",
+    automationTech_Terraform: "Terraform",
+    automationTech_Ansible: "Ansible",
+    automationTech_Python: "Python",
+    automationTech_AWS: "AWS",
+    automationTech_Azure: "Azure",
 
     // Contact
     contactTitle: "お問い合わせ",

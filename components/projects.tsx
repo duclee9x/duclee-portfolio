@@ -69,16 +69,15 @@ export function Projects() {
                 />
               </div>
               <CardHeader>
-                <CardTitle className="text-xl">Infrastructure Automation Suite</CardTitle>
+                <CardTitle className="text-xl">{t("automationTitle")}</CardTitle>
               </CardHeader>
               <CardContent>
                 <p className="text-muted-foreground mb-6 leading-relaxed">
-                  Comprehensive automation toolkit for infrastructure provisioning and management across multi-cloud
-                  environments.
+                  {t("automationDesc")}
                 </p>
 
                 <div className="flex flex-wrap gap-2 mb-6">
-                  {["Terraform", "Ansible", "Python", "AWS", "Azure"].map((tech) => (
+                  {[t("automationTech_Terraform"), t("automationTech_Ansible"), t("automationTech_Python"), t("automationTech_AWS"), t("automationTech_Azure")].map((tech) => (
                     <span key={tech} className="px-3 py-1 bg-primary/10 text-primary rounded-full text-sm font-medium">
                       {tech}
                     </span>

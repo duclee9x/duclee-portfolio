@@ -51,31 +51,31 @@ export function FeaturedProject() {
       name: "Kind",
       icon: Kind,
       color:
-        "bg-gradient-to-r from-emerald-100 to-green-100 text-emerald-700 dark:from-emerald-900/50 dark:to-green-900/50 dark:text-emerald-300 border border-emerald-200 dark:border-emerald-800",
+      "bg-gradient-to-r from-teal-100 to-emerald-100 text-teal-700 dark:from-teal-900/50 dark:to-emerald-900/50 dark:text-teal-300 border border-teal-200 dark:border-teal-800",
     },
     {
       name: "Bun",
       icon: Bun,
       color:
-        "bg-gradient-to-r from-green-100 to-lime-100 text-green-700 dark:from-green-900/50 dark:to-lime-900/50 dark:text-green-300 border border-green-200 dark:border-green-800",
+      "bg-gradient-to-r from-teal-100 to-emerald-100 text-teal-700 dark:from-teal-900/50 dark:to-emerald-900/50 dark:text-teal-300 border border-teal-200 dark:border-teal-800",
     },
     {
       name: "Typescript",
       icon: Typescript,
       color:
-        "bg-gradient-to-r from-green-100 to-lime-100 text-green-700 dark:from-green-900/50 dark:to-lime-900/50 dark:text-green-300 border border-green-200 dark:border-green-800",
+      "bg-gradient-to-r from-teal-100 to-emerald-100 text-teal-700 dark:from-teal-900/50 dark:to-emerald-900/50 dark:text-teal-300 border border-teal-200 dark:border-teal-800",
     },
     {
       name: "Next",
       icon: Nextjs,
       color:
-        "bg-gradient-to-r from-green-100 to-lime-100 text-green-700 dark:from-green-900/50 dark:to-lime-900/50 dark:text-green-300 border border-green-200 dark:border-green-800",
+      "bg-gradient-to-r from-teal-100 to-emerald-100 text-teal-700 dark:from-teal-900/50 dark:to-emerald-900/50 dark:text-teal-300 border border-teal-200 dark:border-teal-800",
     },
     {
       name: "ESlint",
       icon: Eslint,
       color:
-        "bg-gradient-to-r from-green-100 to-lime-100 text-green-700 dark:from-green-900/50 dark:to-lime-900/50 dark:text-green-300 border border-green-200 dark:border-green-800",
+      "bg-gradient-to-r from-teal-100 to-emerald-100 text-teal-700 dark:from-teal-900/50 dark:to-emerald-900/50 dark:text-teal-300 border border-teal-200 dark:border-teal-800",
     },
     
     {
@@ -87,8 +87,9 @@ export function FeaturedProject() {
     {
       name: "Github Action",
       icon: Action,
+      link: "https://github.com/duclee9x/nexura-ecommerce/actions",
       color:
-        "bg-gradient-to-r from-green-100 to-lime-100 text-green-700 dark:from-green-900/50 dark:to-lime-900/50 dark:text-green-300 border border-green-200 dark:border-green-800",
+        "bg-gradient-to-r from-green-100 to-lime-100 text-green-900 dark:from-green-900/70 dark:to-green-900/90 dark:text-green-300 hover:text-green-600 hover:dark:text-green-400 border border-green-200 dark:border-green-800",
     },
     {
       name: "Dagger",
@@ -100,64 +101,67 @@ export function FeaturedProject() {
       name: "Helm",
       icon: Helm,
       color:
-        "bg-gradient-to-r from-red-100 to-pink-100 text-red-700 dark:from-red-900/50 dark:to-pink-900/50 dark:text-red-300 border border-red-200 dark:border-red-800",
+      "bg-gradient-to-r from-teal-100 to-emerald-100 text-teal-700 dark:from-teal-900/50 dark:to-emerald-900/50 dark:text-teal-300 border border-teal-200 dark:border-teal-800",
     },
     {
       name: "ArgoCD",
       icon: ArgoCD,
+      link: "https://argocd.duclee.store",
       color:
-        "bg-gradient-to-r from-lime-100 to-green-100 text-lime-700 dark:from-lime-900/50 dark:to-green-900/50 dark:text-lime-300 border border-lime-200 dark:border-lime-800",
+      "bg-gradient-to-r from-green-100 to-lime-100 text-green-900 dark:from-green-900/70 dark:to-green-900/90 dark:text-green-300 hover:text-green-600 hover:dark:text-green-400 border border-green-200 dark:border-green-800",
     },
     {
       name: "Let's Encrypt",
       icon: LetsEncrypt,
       color:
-        "bg-gradient-to-r from-lime-100 to-green-100 text-lime-700 dark:from-lime-900/50 dark:to-green-900/50 dark:text-lime-300 border border-lime-200 dark:border-lime-800",
+      "bg-gradient-to-r from-teal-100 to-emerald-100 text-teal-700 dark:from-teal-900/50 dark:to-emerald-900/50 dark:text-teal-300 border border-teal-200 dark:border-teal-800",
     },
     {
       name: "Dapr",
       icon: Dapr,
       color:
-        "bg-gradient-to-r from-lime-100 to-green-100 text-lime-700 dark:from-lime-900/50 dark:to-green-900/50 dark:text-lime-300 border border-lime-200 dark:border-lime-800",
+      "bg-gradient-to-r from-teal-100 to-emerald-100 text-teal-700 dark:from-teal-900/50 dark:to-emerald-900/50 dark:text-teal-300 border border-teal-200 dark:border-teal-800",
     },
     {
       name: "Istio",
       icon: Istio,
       color:
-        "bg-gradient-to-r from-lime-100 to-green-100 text-lime-700 dark:from-lime-900/50 dark:to-green-900/50 dark:text-lime-300 border border-lime-200 dark:border-lime-800",
+      "bg-gradient-to-r from-teal-100 to-emerald-100 text-teal-700 dark:from-teal-900/50 dark:to-emerald-900/50 dark:text-teal-300 border border-teal-200 dark:border-teal-800",
     },
     {
       name: "Snyk",
       icon: Snyk,
       color:
-        "bg-gradient-to-r from-lime-100 to-green-100 text-lime-700 dark:from-lime-900/50 dark:to-green-900/50 dark:text-lime-300 border border-lime-200 dark:border-lime-800",
+      "bg-gradient-to-r from-teal-100 to-emerald-100 text-teal-700 dark:from-teal-900/50 dark:to-emerald-900/50 dark:text-teal-300 border border-teal-200 dark:border-teal-800",
     },
     {
       name: "Hashicorp Vault",
       icon: Vault,
       color:
-        "bg-gradient-to-r from-lime-100 to-green-100 text-lime-700 dark:from-lime-900/50 dark:to-green-900/50 dark:text-lime-300 border border-lime-200 dark:border-lime-800",
+      "bg-gradient-to-r from-teal-100 to-emerald-100 text-teal-700 dark:from-teal-900/50 dark:to-emerald-900/50 dark:text-teal-300 border border-teal-200 dark:border-teal-800",
     },
     {
       name: "SMTP",
       icon: SMTP,
       color:
-        "bg-gradient-to-r from-lime-100 to-green-100 text-lime-700 dark:from-lime-900/50 dark:to-green-900/50 dark:text-lime-300 border border-lime-200 dark:border-lime-800",
+      "bg-gradient-to-r from-teal-100 to-emerald-100 text-teal-700 dark:from-teal-900/50 dark:to-emerald-900/50 dark:text-teal-300 border border-teal-200 dark:border-teal-800",
     },
     {
       name: "LGTM stack",
       icon: Grafana,
+      link: "https://grafana.duclee.store",
       color:
-        "bg-gradient-to-r from-lime-100 to-green-100 text-lime-700 dark:from-lime-900/50 dark:to-green-900/50 dark:text-lime-300 border border-lime-200 dark:border-lime-800",
+      "bg-gradient-to-r from-green-100 to-lime-100 text-green-900 dark:from-green-900/70 dark:to-green-900/90 dark:text-green-300 hover:text-green-600 hover:dark:text-green-400 border border-green-200 dark:border-green-800",
     },
   ]
 
   const features = [
-    "Microservices architecture with 99.9% uptime",
-    "Auto-scaling based on traffic patterns",
-    "Real-time monitoring and alerting",
-    "CI/CD pipeline with automated testing",
-    "Multi-region deployment for high availability",
+    t("feature1"),
+    t("feature2"),
+    t("feature3"),
+    t("feature4"),
+    t("feature5"),
+    t("feature6")
   ]
 
   return (
@@ -172,9 +176,7 @@ export function FeaturedProject() {
             <h2 className="text-4xl md:text-5xl font-bold mb-4 bg-gradient-to-r from-primary via-emerald-500 to-green-600 bg-clip-text text-transparent">
               {t("featuredProject")}
             </h2>
-            <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-              A comprehensive cloud-native e-commerce platform showcasing modern DevOps practices
-            </p>
+
           </div>
 
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
@@ -223,14 +225,17 @@ export function FeaturedProject() {
                   <h4 className="text-lg font-semibold mb-3 text-primary">Technology Stack</h4>
                   <div className="flex flex-wrap gap-2">
                     {techStack.map((tech, index) => (
-                      <span
+                      
+                      <a
+                        href={tech.link}
+                        
                         key={tech.name}
                         className={`inline-flex items-center gap-2 px-3 py-1 rounded-full text-sm font-medium transition-all duration-300 hover:scale-105 ${tech.color}`}
                         style={{ animationDelay: `${index * 100}ms` }}
                       >
                         <Image src={tech.icon} alt={tech.name} width={24} height={24} />
                         {tech.name}
-                      </span>
+                      </a>
                     ))}
                   </div>
                 </div>
@@ -254,16 +259,21 @@ export function FeaturedProject() {
 
                 {/* Action Buttons */}
                 <div className="flex gap-4 pt-4">
-                  <Button className="bg-gradient-to-r from-primary via-emerald-500 to-green-600 hover:from-primary/90 hover:via-emerald-500/90 hover:to-green-600/90 transform hover:scale-105 transition-all duration-300 shadow-lg hover:shadow-xl">
+                  <Button asChild className="bg-gradient-to-r from-primary via-emerald-500 to-green-600 hover:from-primary/90 hover:via-emerald-500/90 hover:to-green-600/90 transform hover:scale-105 transition-all duration-300 shadow-lg hover:shadow-xl">
+                    <a href="https://duclee.store" target="_blank"> 
                     <ExternalLink className="w-4 h-4 mr-2" />
                     {t("liveDemo")}
+                    </a>
                   </Button>
                   <Button
+                    asChild
                     variant="outline"
                     className="border-primary/30 hover:bg-gradient-to-r hover:from-primary/5 hover:via-emerald-500/5 hover:to-green-600/5 transform hover:scale-105 transition-all duration-300 hover:border-primary/50"
                   >
+                    <a href="https://github.com/duclee9x/nexura-ecommerce" target="_blank">
                     <Github className="w-4 h-4 mr-2" />
                     {t("viewCode")}
+                    </a>
                   </Button>
                 </div>
               </div>

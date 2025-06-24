@@ -19,6 +19,7 @@ export function Certificates() {
       subtitle: t("associateLevel"),
       period: `${t("valid")}: 2025 - 2028`,
       borderColor: "border-white-200",
+      link: "https://www.credly.com/badges/2c69ea39-d918-4cea-af61-a38dbb431dd3",
       icon: aws,
       status: "active",
     },
@@ -26,8 +27,6 @@ export function Certificates() {
       title: "JLPT N2",
       subtitle: t("jlptCert"),
       period: `${t("passed")}: 2020`,
-      color: "from-white-400 via-white-200 to-gray-500",
-      bgColor: "bg-gradient-to-br from-white-50 to-amber-50",
       borderColor: "border-white-200",
       icon: jlpt,
       status: "completed",
@@ -36,8 +35,6 @@ export function Certificates() {
       title: "TOEIC",
       subtitle: t("toeicCert"),
       period: t("score") + " (2018)",
-      color: "from-white-400 via-white-200 to-gray-500",
-      bgColor: "bg-gradient-to-br from-white-50 to-amber-50",
       borderColor: "border-white-200",
       icon: toeic,
       status: "completed",
@@ -71,6 +68,7 @@ export function Certificates() {
     borderColor: string,
     icon: StaticImageData,
     status: string,
+    link?: string,
   }
   return (
     <section id="certificates" className="py-20 bg-gradient-to-br from-background via-background/95 to-background">
@@ -86,16 +84,8 @@ export function Certificates() {
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-            {certificates.map((cert: CertificateType, index) => (
-              <div
-                key={index}
-                ref={(el) => (itemRefs.current[index] = el)}
-                data-index={index}
-                className={`transition-all duration-1000 ${
-                  visibleItems.includes(index) ? "opacity-100 translate-y-0" : "opacity-0 translate-y-10"
-                }`}
-                style={{ transitionDelay: `${index * 200}ms` }}
-              >
+            {certificates.map((cert, index) => {
+              const card = (
                 <Card
                   className={`hover:shadow-xl transition-all duration-500 transform hover:-translate-y-2 hover:scale-105  ${cert.borderColor} border relative overflow-hidden group`}
                 >
@@ -103,7 +93,6 @@ export function Certificates() {
                   {cert.status === "active" && (
                     <div className="absolute top-4 right-4 w-3 h-3 bg-gradient-to-r from-green-400 to-emerald-500 rounded-full animate-pulse"></div>
                   )}
-
                   <CardHeader className="text-center pb-4">
                     <div className="relative mx-auto mb-4">
                       <div
@@ -111,10 +100,6 @@ export function Certificates() {
                       >
                         <div className="w-full h-full flex items-center justify-center text-white"><Image src={cert.icon} alt="" width={60} height={60} /></div>
                       </div>
-                      {/* Animated ring */}
-                      {/* <div
-                        className={`absolute inset-0 w-20 h-20 mx-auto rounded-full border-2 border-transparent bg-gradient-to-r ${cert.color} opacity-0 group-hover:opacity-30 transition-all duration-500 animate-ping`}
-                      ></div> */}
                     </div>
 
                     <CardTitle className="text-xl mb-2 bg-gradient-to-r from-foreground to-foreground/80 bg-clip-text text-transparent">
@@ -131,16 +116,28 @@ export function Certificates() {
 
                     {/* Achievement badge */}
                     <div className="inline-flex items-center gap-2 px-3 py-1 bg-gradient-to-r from-primary/10 via-emerald-500/10 to-green-600/10 rounded-full text-xs font-medium text-primary border border-primary/20">
-                    <CheckCircle className="w-3 h-3" />
-                    {cert.status === "active" ? "Active Certification" : "Certified"}
+                      <CheckCircle className="w-3 h-3" />
+                      {cert.status === "active" ? "Active Certification" : "Certified"}
                     </div>
                   </CardContent>
 
                   {/* Hover effect overlay */}
                   <div className="absolute inset-0 bg-gradient-to-br from-transparent via-transparent to-white/5 opacity-0 group-hover:opacity-100 transition-opacity duration-300 pointer-events-none"></div>
                 </Card>
-              </div>
-            ))}
+              )
+
+              return (
+                <div key={index} data-index={index} ref={ref => { itemRefs.current[index] = ref; }}>
+                  {cert.link ? (
+                    <a href={cert.link} target="_blank" rel="noopener noreferrer">
+                      {card}
+                    </a>
+                  ) : (
+                    card
+                  )}
+                </div>
+              )
+            })}
           </div>
 
           {/* Additional info section */}

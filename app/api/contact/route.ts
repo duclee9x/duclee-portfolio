@@ -13,8 +13,8 @@ export async function POST(request: NextRequest) {
         "X-Postmark-Server-Token": process.env.POSTMARK_SERVER_TOKEN || "",
       },
       body: JSON.stringify({
-        From: process.env.POSTMARK_FROM_EMAIL || "noreply@yoursite.com",
-        To: process.env.ADMIN_EMAIL || "admin@yoursite.com",
+        From: process.env.POSTMARK_FROM_EMAIL || "admin@duclee.store",
+        To: process.env.ADMIN_EMAIL || "ledangduc7601@gmail.com",
         Subject: `Portfolio Contact: ${subject}`,
         HtmlBody: `
           <h2>New Contact Form Submission</h2>
@@ -39,6 +39,7 @@ export async function POST(request: NextRequest) {
     })
 
     if (!postmarkResponse.ok) {
+      console.log("PostmarkApp error:"+ JSON.stringify(postmarkResponse))
       throw new Error("Failed to send email")
     }
 
