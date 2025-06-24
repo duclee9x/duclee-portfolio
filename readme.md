@@ -5,9 +5,9 @@
 Pleiku, Gia Lai Province, Vietnam  
 📞 033.475.4517  
 ✉️ ledangduc7601@gmail.com
-
 [LinkedIn](https://linkedin.com/in/duclee9x)
 [Github](https://github.com/duclee9x)
+
 ---
 
 ## Professional Summary

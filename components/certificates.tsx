@@ -4,9 +4,9 @@ import { useEffect, useRef, useState } from "react"
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 import { useLanguage } from "@/contexts/language-context"
 import { Calendar, Award, CheckCircle } from "lucide-react"
-import aws from "@/components/svg/aws.svg"
-import jlpt from "@/components/svg/jlpt.jpg"
-import toeic from "@/components/svg/toeic.png"
+import toeic from "/public/svg/toeic.png"
+import aws from "/public/svg/aws.svg"
+import jlpt from "/public/svg/jlpt.jpg"
 import Image, { StaticImageData } from "next/image"
 export function Certificates() {
   const [visibleItems, setVisibleItems] = useState<number[]>([])
