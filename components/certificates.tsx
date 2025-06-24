@@ -25,7 +25,7 @@ export function Certificates() {
     {
       title: "JLPT N2",
       subtitle: t("jlptCert"),
-      period: `${t("passed")}: 2021`,
+      period: `${t("passed")}: 2020`,
       color: "from-white-400 via-white-200 to-gray-500",
       bgColor: "bg-gradient-to-br from-white-50 to-amber-50",
       borderColor: "border-white-200",

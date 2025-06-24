@@ -46,7 +46,7 @@ export function TechCarousel() {
     { name: "Bun", category: "Typescript Runtime", icon: Bun, link: "https://bun.sh/" },
     { name: "MySQL", category: "Relational Database", icon: MySQL, link: "https://mysql.com/" },
     { name: "Terraform", category: "IaC", icon: Terraform, link: "https://www.terraform.io/" },
-    { name: "Github Action", category: "CI/CD", icon: Action, link: "https://www.jenkins.io/" },
+    { name: "Github Action", category: "CI/CD", icon: Action, link: "https://github.com/features/actions/" },
     { name: "NewRelic", category: "Monitoring SaaS", icon: Newrelic, link: "https://newrelic.com/" },
     { name: "Ansible", category: "Automation", icon: Ansible, link: "https://www.ansible.com/" },
     { name: "Action", category: "CI/CD", icon: Action, link: "https://github.com/features/actions" },

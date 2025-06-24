@@ -113,7 +113,7 @@ export function Hero() {
             <Button
               variant="outline"
               size="lg"
-              onClick={() => window.open("https://duclee9x.github.io/duclee9x.pdf", "_blank")}
+              onClick={() => window.open("https://raw.githubusercontent.com/duclee9x/duclee-portfolio/main/public/cv.pdf", "_blank")}
               className="text-lg px-8 py-3 border-primary/30 hover:bg-gradient-to-r hover:from-primary/5 hover:via-emerald-500/5 hover:to-green-600/5 transform hover:scale-105 transition-all duration-300 hover:border-primary/50"
             >
               {t("getMyCV")}
